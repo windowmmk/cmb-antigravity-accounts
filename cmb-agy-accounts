@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+"""Standalone entrypoint for cmb-antigravity-accounts."""
+from cmb_antigravity_accounts.cli import main
+
+if __name__ == '__main__':
+    raise SystemExit(main())
